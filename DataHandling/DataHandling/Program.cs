@@ -6,8 +6,10 @@
         {
             Console.WriteLine("****************** WELCOME TO THIRD PARTY LIBRARY********************");
 
+            // UC1
             CSVHandler.ImplementCSVDataHandling();
-
+            // UC2
+            ReadCSV_And_WriteJSON.ImplementCSVToJSON();
         }
     } 
 }

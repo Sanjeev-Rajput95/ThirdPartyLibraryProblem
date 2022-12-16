@@ -16,7 +16,7 @@ namespace DataHandling
         public static void ImplementCSVToJSON()
         {
             string importFilePath = "C:/Bridgelabz/ThirdPartyLibraryProblem/ThirdPartyLibraryProblem/DataHandling/DataHandling/Address.csv";
-            string exportFilePath = "C:/Bridgelabz/ThirdPartyLibraryProblem/ThirdPartyLibraryProblem/DataHandling/DataHandling/Address.csv";
+            string exportFilePath = "C:/Bridgelabz/ThirdPartyLibraryProblem/ThirdPartyLibraryProblem/DataHandling/DataHandling/exportAddress.csv";
 
             // reading csv file
             using (var reader = new StreamReader(importFilePath))
@@ -28,7 +28,7 @@ namespace DataHandling
                 {
                     Console.WriteLine("\t" + addressData.phone);
                 }
-                Console.WriteLine("\n******************** Now reading from csv file and write to j*****************");
+                Console.WriteLine("\n******************** Now reading from csv file and write to json*****************");
 
                 // write data to json file
                 JsonSerializer serializer = new JsonSerializer();

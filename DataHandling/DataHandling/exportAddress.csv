@@ -1,5 +1,1 @@
-firstName,lastName,email,country,phone
-"Rajeev ",Kumar Singh,rajeevs@example.com,India,+91-9999999999
-"Sachin ",Tendulkar,sachin@example.com,India,+91-9999999998
-"Barak ",Obama,barak.obama@example.com,United States,+1-1111111111
-"Donald ",Trump,donald.trump@example.com,United States,+1-2222222222
+[{"firstName":"Rajeev ","lastName":"Kumar Singh","email":"rajeevs@example.com","country":"India","phone":"+91-9999999999"},{"firstName":"Sachin ","lastName":"Tendulkar","email":"sachin@example.com","country":"India","phone":"+91-9999999998"},{"firstName":"Barak ","lastName":"Obama","email":"barak.obama@example.com","country":"United States","phone":"+1-1111111111"},{"firstName":"Donald ","lastName":"Trump","email":"donald.trump@example.com","country":"United States","phone":"+1-2222222222"}]
