@@ -16,7 +16,7 @@ namespace DataHandling
         public static void ImplementCSVToJSON()
         {
             string importFilePath = "C:/Bridgelabz/ThirdPartyLibraryProblem/ThirdPartyLibraryProblem/DataHandling/DataHandling/Address.csv";
-            string exportFilePath = "C:/Bridgelabz/ThirdPartyLibraryProblem/ThirdPartyLibraryProblem/DataHandling/DataHandling/exportAddress.csv";
+            string exportFilePath = "C:/Bridgelabz/ThirdPartyLibraryProblem/ThirdPartyLibraryProblem/DataHandling/DataHandling/jsconfig1.json";
 
             // reading csv file
             using (var reader = new StreamReader(importFilePath))

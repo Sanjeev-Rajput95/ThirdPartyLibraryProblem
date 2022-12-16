@@ -10,6 +10,9 @@
             CSVHandler.ImplementCSVDataHandling();
             // UC2
             ReadCSV_And_WriteJSON.ImplementCSVToJSON();
+            // UC3
+            ReadJSON_And_WriteCSV.ImplementJSONToCSV();
+
         }
     } 
 }
